@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20sp"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:orientation="horizontal"
+        android:background="@drawable/custom_edt"
+        android:layout_marginBottom="10sp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_outline_view_list_24"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="19sp"
+            />
+
+        <Spinner
+            android:layout_marginLeft="10sp"
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:dropDownWidth="match_parent"
+
+
+            />
+    </LinearLayout>
+
+
+
+
+
+
+    <EditText
+        android:drawableLeft="@drawable/ic_outline_view_list_24"
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_edt"
+        android:hint="Amount"
+        android:layout_marginBottom="10sp"
+        android:paddingLeft="20sp"
+        android:inputType="number"
+        android:drawablePadding="10sp"
+        />
+    <EditText
+        android:drawableLeft="@drawable/ic_outline_access_time_24"
+        android:drawableTint="@color/toolbar"
+        android:id="@+id/date"
+        android:background="@drawable/custom_edt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Date"
+        android:layout_marginBottom="10sp"
+        android:paddingLeft="20sp"
+        android:drawablePadding="10sp"
+        />
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edt"
+        android:hint="Desc"
+        android:layout_marginBottom="10sp"
+        android:paddingLeft="20sp"
+        android:lines="3"
+        android:overScrollMode="always"
+        />
+    <EditText
+        android:drawableLeft="@drawable/ic_outline_add_location_24"
+        android:drawablePadding="10sp"
+        android:drawableTint="@color/toolbar"
+        android:id="@+id/adr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edt"
+        android:hint="Address"
+        android:layout_marginBottom="10sp"
+        android:paddingLeft="20sp"
+        android:lines="3"
+        android:overScrollMode="always"
+        />
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        />
+
+
+
+</LinearLayout>

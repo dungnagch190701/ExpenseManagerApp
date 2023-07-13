@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="trip_name">
+        <item>Vacation</item>
+        <item>Meeting</item>
+        <item>Hometown</item>
+        <item>Conference</item>
+        <item>Show</item>
+        <item>Events</item>
+        <item>Study</item>
+        <item>Offices</item>
+        <item>Others</item>
+
+    </string-array>
+    <string-array name="expense_name">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Clothes</item>
+        <item>Gift</item>
+        <item>Parking</item>
+        <item>Coffee</item>
+
+    </string-array>
+    <string name="select">Select Item</string>
+    <string name="required">Required*</string>
+
+    <string name="api_key">AIzaSyCbSBiXmImIsHxU0_lWRhd87y7lFEYU31w</string>
+</resources>
